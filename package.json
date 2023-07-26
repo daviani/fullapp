@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "start": "nx serve frontend",
+    "build": "nx build frontend --prod",
     "start:dev": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
     "start:frontend": "nx serve frontend",
     "start:backend": "nx serve backend"
