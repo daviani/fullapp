@@ -6,9 +6,9 @@
     }
   ],
   "routes": [
-    { "src": "/", "dest": "/apps/frontend" },
-    { "src": "/page-2", "dest": "/apps/frontend/page-2" },
-    { "src": "/(.*)", "dest": "/apps/frontend/404.html" }
+    { "src": "/", "dest": "dist/apps/frontend" },
+    { "src": "/page-2", "dest": "dist/apps/frontend/page-2" },
+    { "src": "/(.*)", "dest": "dist/apps/frontend/404.html" }
   ]
 }
 
